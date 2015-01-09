@@ -41,7 +41,7 @@ configuration DacDeploy
     
     Node 'localhost'
     { 
-        xDatabase DeployDac
+        msDatabase DeployDac
         {
             Ensure = $Ensure
             SqlServer = $SqlServer
