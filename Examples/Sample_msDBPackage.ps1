@@ -1,4 +1,4 @@
-﻿configuration DbBackup
+configuration DbBackup
 {
     param
     (
@@ -29,7 +29,7 @@
     )
     Node 'localhost'
     { 
-        xDBPackage Backup
+        msDBPackage Backup
         {
             SqlServer = $SqlServer
             SqlServerVersion = $SqlServerVersion
